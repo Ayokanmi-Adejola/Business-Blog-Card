@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Business Blog Card | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        background: #f3f4f6;
+        font-family: 'Segoe UI', 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        width: 100vw;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        max-width: 400px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+      }
+
+      .card-hero {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+      }
+      .card-hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      .card-overlay {
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      .card-content {
+        background: #fff;
+        padding: 32px 32px 0 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        position: relative;
+        z-index: 3;
+      }
+
+      .card-tag {
+        color: #3b82f6;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      .card-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #1f2937;
+        margin-bottom: 0;
+        line-height: 1.3;
+      }
+
+      .card-desc {
+        font-size: 15px;
+        color: #6b7280;
+        margin-bottom: 0;
+        line-height: 1.5;
+      }
+
+      .card-author {
+        background: #fff;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 18px 32px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 -1px 0 #f3f4f6;
+        margin-top: 0;
+        position: relative;
+        z-index: 4;
+      }
+
+      .card-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #e5e7eb;
+        background: #fff;
+      }
+
+      .card-author-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .card-author-name {
+        font-size: 15px;
+        font-weight: 700;
+        color: #111827;
+      }
+      .card-author-role {
+        font-size: 13px;
+        color: #6b7280;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        color: rgb(55, 65, 81);
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card-container">
+      <div class="card">
+        <div class="card-hero">
+          <img src="resources/hero-image.jpg" alt="Business Hero" class="card-hero-img" />
+          <img src="design/white-overlay.svg" alt="" class="card-overlay" />
+        </div>
+        <div class="card-content">
+          <h1 class="card-title">Perfect solution for small business</h1>
+          <p class="card-desc">Small businesses need to generate leads to grow. You can use tools like Ringy.</p>
+        </div>
+        <div class="card-author">
+          <img src="resources/avatar-image-business-card.png" alt="Amy Burgess" class="card-avatar" />
+          <div class="card-author-info">
+            <span class="card-author-name">Amy Burgess</span>
+            <span class="card-author-role">Customer Manger, Solution Oy</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="author-info">
+      Coded by <a href="#">Ayokanmi Adejola</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
