@@ -2,10 +2,11 @@
 
 # Business Blog Card
 
->A modern, responsive business blog card component built with semantic HTML and custom CSS, inspired by a professional design challenge from [devChallenges.io](https://www.devchallenges.io/).
-
 ## 📸 Preview
 ![Business Blog Card Preview](thumbnail.jpg)
+>A modern, responsive business blog card component built with semantic HTML and custom CSS, inspired by a professional design challenge from [devChallenges.io](https://www.devchallenges.io/).
+
+
 
 ## ✨ Features
 - **Modern UI:** Clean, elegant card layout with a wavy SVG overlay for visual separation.
