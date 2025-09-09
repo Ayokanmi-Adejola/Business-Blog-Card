@@ -1,12 +1,16 @@
 
 
-# Business Blog Card
+# Business Blog Card | devChallenges.io
 
-## 📸 Preview
+
 ![Business Blog Card Preview](thumbnail.jpg)
+
 >A modern, responsive business blog card component built with semantic HTML and custom CSS, inspired by a professional design challenge from [devChallenges.io](https://www.devchallenges.io/).
 
 
+| Desktop | Tablet | Mobile |
+| ------- | ------ | ------ |
+| ![Desktop](./design/Desktop_1350px.jpg) | ![Tablet](./design/Tablet_1024px.jpg) | ![Mobile](./design/Mobile_412px.jpg) |
 
 ## ✨ Features
 - **Modern UI:** Clean, elegant card layout with a wavy SVG overlay for visual separation.
@@ -54,12 +58,3 @@
 - [CSS Tricks – Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [devChallenges.io Community](https://devchallenges.io/)
 - [Figma](https://www.figma.com/) – for design inspection and measurement
-
----
-
-
-## 👤 Author
-Coded by **Ayokanmi Adejola**  
-Challenge by [devChallenges.io](https://devchallenges.io/)
-
-
